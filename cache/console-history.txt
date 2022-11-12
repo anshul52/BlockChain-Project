@@ -1,0 +1,5 @@
+.exit
+await ethers.getContractAt("Token");
+await ethers.getSigners()
+await ethers.getSigners();
+await ethers.getSigner();
