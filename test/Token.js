@@ -26,7 +26,7 @@ describe("Token", () => {
     });
 
     it("has a symbol", async () => {
-      expect(await token.symbol()).to.equal(symbol);
+      expect(await token.symbol()).to.equal(symbol); 
     });
 
     it("has a decimal", async () => {
