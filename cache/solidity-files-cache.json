@@ -74,8 +74,8 @@
       ]
     },
     "C:\\Users\\HP\\Desktop\\BlockChain-Project\\contracts\\Token.sol": {
-      "lastModificationDate": 1668562735869,
-      "contentHash": "bca570a6abc16c7f5e49c640393f63d0",
+      "lastModificationDate": 1669387772503,
+      "contentHash": "71f7ed71f8da430df7dc799954bdd87e",
       "sourceName": "contracts/Token.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -143,6 +143,44 @@
       ],
       "artifacts": [
         "console"
+      ]
+    },
+    "C:\\Users\\HP\\Desktop\\BlockChain-Project\\contracts\\Exchange.sol": {
+      "lastModificationDate": 1669388257803,
+      "contentHash": "d9ced83d68c72604508518992005fed7",
+      "sourceName": "contracts/Exchange.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol",
+        "./Token.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Exchange"
       ]
     }
   }

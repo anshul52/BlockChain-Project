@@ -15,6 +15,7 @@ describe("Token", () => {
     deployer = accounts[0];
     receiver = accounts[1];
     spender = accounts[2];
+    
   });
   describe("deployment", () => {
     const name = "Sheryians";

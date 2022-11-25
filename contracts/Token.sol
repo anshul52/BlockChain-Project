@@ -60,7 +60,4 @@ contract Token{
      return true;
 
     }
-
-
-   
 }
